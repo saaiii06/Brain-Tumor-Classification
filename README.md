@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
 ![EfficientNet-B0](https://img.shields.io/badge/Model-EfficientNet--B0-green)
-![Repo Views](https://hits.sh/github.com/saaiii06/Brain-Tumor-Classification.svg?style=flat-square&label=Repo%20Views)
+![Repo Views](https://hits.sh/github.com/saaiii06/Brain-Tumor-Classification.svg?style=flat-square\&label=Repo%20Views)
 
 A deep learning-based system for automated brain tumor classification from MRI scans using **EfficientNet-B0**, transfer learning, and **Grad-CAM explainability**.
 
@@ -16,9 +16,9 @@ The model classifies brain MRI images into four categories:
 
 ---
 
-## 📸 Web Interface
+## 📸 Project Preview
 
-![Web Interface](images/gradio_interface.png)
+![Project Preview](images/gradio_interface.png)
 
 ---
 
@@ -62,7 +62,7 @@ This project uses the **Brain Tumor MRI Dataset** available on Kaggle.
 
 🔗 **Dataset:** [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
-The dataset contains approximately **7000+ MRI images** divided into four categories:
+The dataset contains **over 7,000 MRI images** distributed across four classes:
 
 * Glioma
 * Meningioma
@@ -113,7 +113,6 @@ Dataset/
 
 * Google Colab
 * Jupyter Notebook
-* VS Code
 
 ---
 
@@ -192,18 +191,6 @@ The Precision-Recall curves provide insights into the trade-off between precisio
 
 ---
 
-## 🌐 Web Interface
-
-The Gradio-based interface enables users to:
-
-* Upload MRI images
-* Predict tumor types
-* View confidence scores
-* Generate Grad-CAM heatmaps
-* Visualize highlighted tumor regions
-
----
-
 ## 📁 Project Structure
 
 ```text
@@ -231,7 +218,7 @@ Brain-Tumor-Classification/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Brain-Tumor-Classification.git
+git clone https://github.com/saaiii06/Brain-Tumor-Classification.git
 ```
 
 Navigate to the project directory:
@@ -250,19 +237,19 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-### Train the Model
+### Training
 
-Run:
+Open and run:
 
-```python
+```text
 braintumorproject.ipynb
 ```
 
-### Perform Inference and Launch the Gradio Application
+### Inference and Gradio Interface
 
-Run:
+Open and run:
 
-```python
+```text
 result.ipynb
 ```
 
@@ -286,3 +273,4 @@ This project is licensed under the MIT License.
 ---
 
 ⭐ If you found this project useful, consider giving it a star!
+
