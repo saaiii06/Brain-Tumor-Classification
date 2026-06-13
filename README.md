@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
 ![EfficientNet-B0](https://img.shields.io/badge/Model-EfficientNet--B0-green)
+![Google Colab](https://img.shields.io/badge/Google-Colab-orange?logo=googlecolab)
 ![Repo Views](https://hits.sh/github.com/saaiii06/Brain-Tumor-Classification.svg?style=flat-square\&label=Repo%20Views)
 
 A deep learning-based system for automated brain tumor classification from MRI scans using **EfficientNet-B0**, transfer learning, and **Grad-CAM explainability**.
@@ -62,7 +63,7 @@ This project uses the **Brain Tumor MRI Dataset** available on Kaggle.
 
 🔗 **Dataset:** [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
-The dataset contains **over 7,000 MRI images** distributed across four classes:
+The dataset contains **over 7,000 MRI images** categorized across four classes:
 
 * Glioma
 * Meningioma
@@ -210,8 +211,34 @@ Brain-Tumor-Classification/
     ├── roc_curve.png
     └── precision_recall_curve.png
 ```
+---
+
+## 📂 Project Files
+
+### 📓 Training Notebook
+
+Train the model using the Google Colab notebook:
+
+🔗 [braintumorproject.ipynb](https://colab.research.google.com/drive/1Q1m1AlssWkl2rpfqC7bGzoNv_m9DK-hA?usp=sharing)
 
 ---
+
+### 📓 Inference and Gradio Interface Notebook
+
+Run inference and launch the Gradio application:
+
+🔗 [result.ipynb](https://colab.research.google.com/drive/1rZnyXM8UEUZtQZ6ETWIOIj71KVQGON8T?usp=sharing)
+
+---
+
+### 🧠 Pretrained Model Weights
+
+Download the trained EfficientNet-B0 model:
+
+🔗 [best_model_fast.pth](https://drive.google.com/file/d/11kBNG695CRjAuZGjPuPGKJoVv0hg18mv/view?usp=sharing)
+
+---
+
 
 ## 🚀 Installation
 
