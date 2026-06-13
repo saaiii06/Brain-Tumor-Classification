@@ -4,22 +4,30 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
 ![EfficientNet-B0](https://img.shields.io/badge/Model-EfficientNet--B0-green)
 ![Google Colab](https://img.shields.io/badge/Google-Colab-orange?logo=googlecolab)
-![Repo Views](https://hits.sh/github.com/saaiii06/Brain-Tumor-Classification.svg?style=flat-square\&label=Repo%20Views)
+![Repo Views](https://hits.sh/github.com/saaiii06/Brain-Tumor-Classification.svg?style=flat-square&label=Repo%20Views)
 
 A deep learning-based system for automated brain tumor classification from MRI scans using **EfficientNet-B0**, transfer learning, and **Grad-CAM explainability**.
 
 The model classifies brain MRI images into four categories:
 
-* Glioma
-* Meningioma
-* Pituitary Tumor
-* No Tumor
+- Glioma
+- Meningioma
+- Pituitary Tumor
+- No Tumor
 
 ---
 
 ## 📸 Project Preview
 
 ![Project Preview](images/gradio_interface.png)
+
+---
+
+## 🚀 Live Demo
+
+
+🔗 **Try the Web App:**  
+[Brain Tumor Classification Web App](https://saisreegujjari-brain-tumor-classification.hf.space)
 
 ---
 
